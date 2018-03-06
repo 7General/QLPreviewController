@@ -15,8 +15,8 @@
 		228862A82045774D0024E9D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 228862A72045774D0024E9D5 /* main.m */; };
 		228862B12045782F0024E9D5 /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 228862B02045782F0024E9D5 /* PreviewViewController.m */; };
 		228862B320457AD90024E9D5 /* IM功能点梳理.docx in Resources */ = {isa = PBXBuildFile; fileRef = 228862B220457AD90024E9D5 /* IM功能点梳理.docx */; };
-		228862B520457E080024E9D5 /* IM功能点梳理123.docx in Resources */ = {isa = PBXBuildFile; fileRef = 228862B420457E080024E9D5 /* IM功能点梳理123.docx */; };
-		228862B720457F000024E9D5 /* 123.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 228862B620457F000024E9D5 /* 123.pdf */; };
+		A4111DA5204ECD8F0005C011 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4111DA4204ECD8F0005C011 /* MainViewController.m */; };
+		A4111DA8204ECFF10005C011 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4111DA7204ECFF10005C011 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,8 +33,10 @@
 		228862AF2045782F0024E9D5 /* PreviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreviewViewController.h; sourceTree = "<group>"; };
 		228862B02045782F0024E9D5 /* PreviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreviewViewController.m; sourceTree = "<group>"; };
 		228862B220457AD90024E9D5 /* IM功能点梳理.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IM功能点梳理.docx"; sourceTree = "<group>"; };
-		228862B420457E080024E9D5 /* IM功能点梳理123.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IM功能点梳理123.docx"; sourceTree = "<group>"; };
-		228862B620457F000024E9D5 /* 123.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 123.pdf; sourceTree = "<group>"; };
+		A4111DA3204ECD8F0005C011 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A4111DA4204ECD8F0005C011 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A4111DA6204ECFF10005C011 /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		A4111DA7204ECFF10005C011 /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,6 @@
 		228862972045774D0024E9D5 /* QLPreviewFile */ = {
 			isa = PBXGroup;
 			children = (
-				228862B620457F000024E9D5 /* 123.pdf */,
-				228862B420457E080024E9D5 /* IM功能点梳理123.docx */,
 				228862B220457AD90024E9D5 /* IM功能点梳理.docx */,
 				228862AE204577C30024E9D5 /* QLPreviewViewController */,
 				228862982045774D0024E9D5 /* AppDelegate.h */,
@@ -80,6 +80,10 @@
 				228862A32045774D0024E9D5 /* LaunchScreen.storyboard */,
 				228862A62045774D0024E9D5 /* Info.plist */,
 				228862A72045774D0024E9D5 /* main.m */,
+				A4111DA3204ECD8F0005C011 /* MainViewController.h */,
+				A4111DA4204ECD8F0005C011 /* MainViewController.m */,
+				A4111DA6204ECFF10005C011 /* WebViewController.h */,
+				A4111DA7204ECFF10005C011 /* WebViewController.m */,
 			);
 			path = QLPreviewFile;
 			sourceTree = "<group>";
@@ -154,8 +158,6 @@
 				228862B320457AD90024E9D5 /* IM功能点梳理.docx in Resources */,
 				228862A52045774D0024E9D5 /* LaunchScreen.storyboard in Resources */,
 				228862A22045774D0024E9D5 /* Assets.xcassets in Resources */,
-				228862B720457F000024E9D5 /* 123.pdf in Resources */,
-				228862B520457E080024E9D5 /* IM功能点梳理123.docx in Resources */,
 				228862A02045774D0024E9D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,8 +170,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2288629D2045774D0024E9D5 /* ViewController.m in Sources */,
+				A4111DA8204ECFF10005C011 /* WebViewController.m in Sources */,
 				228862A82045774D0024E9D5 /* main.m in Sources */,
 				2288629A2045774D0024E9D5 /* AppDelegate.m in Sources */,
+				A4111DA5204ECD8F0005C011 /* MainViewController.m in Sources */,
 				228862B12045782F0024E9D5 /* PreviewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "PreviewViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,7 +19,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = [PreviewViewController new];
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:[MainViewController new]];
+    self.window.rootViewController =nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

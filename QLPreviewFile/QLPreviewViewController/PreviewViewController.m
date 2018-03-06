@@ -24,7 +24,7 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     self.dataSource = self;
     
-    NSString *urlStr = [[NSBundle mainBundle] pathForResource:@"123.pdf" ofType:nil];
+    NSString *urlStr = [[NSBundle mainBundle] pathForResource:@"IM功能点梳理.docx" ofType:nil];
     self.fileUrl = [NSURL fileURLWithPath:urlStr];
     
 }
